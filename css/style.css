@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Layout 1 */
+.container1{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    padding: 30px;
+}
+
+/* BOX 1 */
+.box1{
+    background-color: aquamarine;
+    height: 85vh;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+/* BOX 2 */
+.box2{
+    height: 85vh;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* BOX 2 CHILD 1 */
+.child1{
+    background-color: rgb(204, 154, 78);
+    height: 180px;
+}
+
+/* BOX 2 CHILD 2 */
+.child2{
+    height: 180px;
+    display: flex;
+    gap: 40px;
+}
+
+/* BOX 2 CHILD 2 SUB 1 */
+.child2-sub1{
+    background-color: brown;
+    width: 300px;
+}
+
+/* BOX 2 CHILD 2 SUB 2 */
+.child2-sub2{
+    background-color: rgb(224, 221, 74);
+    width: 300px;
+}
+
+/* BOX 2 CHILD 3 */
+.child3{
+    background-color: blueviolet;
+    height: 180px;
+}
+
+
+/* Layout 2 */
+.container2{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+/* BOX 1 */
+.new-box1{
+    height: 480px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* BOX 1 - B1 */
+.new-box1-b1{
+    background-color: Chartreuse;
+    height: 50%;
+}
+
+/* BOX 1 - B2 */
+.new-box1-b2{
+    background-color: Crimson;
+    height: 50%;
+}
+
+/* Box 2 */
+.new-box2{
+    background-color: rgb(115, 236, 236);
+    height: 480px;
+    width: 33%;
+}
+
+/* Box 3 */
+.new-box3{
+    background-color: #F1E3D3;
+    height: 480px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BOX 3 Section 1 */
+.new-box3-b1{
+    background-color: rgb(255, 140, 0);
+    height: 35%;
+    margin: 15px 15px 0px 15px;
+    display: flex;
+}
+
+/* CHILDS of BOX 3 - B1 */
+.new-box3-b1-c1{
+    background-color: rgb(197, 229, 14);
+    width: 50%;
+    margin: 15px 0px 15px 15px;
+}
+.new-box3-b1-c2{
+    background-color: rgb(95, 88, 227);
+    width: 50%;
+    margin: 15px 15px 15px 15px;
+}
+
+/* BOX 3 Section 2 */
+.new-box3-b2{
+    background-color: DeepPink;
+    height: 35%;
+    margin: 15px;
+    margin: 15px 15px 0px 15px;
+}
+
+/* Box 3 Section 3 */
+.new-box3-b3{
+    background-color: MediumPurple;
+    height: 35%;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+}
+
+/* CHILDS of BOX 3 - B3 */
+.new-box3-b3-c1{
+    background-color: #390007;
+    width: 50%;
+    margin: 15px 0px 15px 15px;
+}
+.new-box3-b3-c2{
+    background-color: rgb(255, 177, 7);
+    width: 50%;
+    margin: 15px 15px 15px 15px;
+}
+
